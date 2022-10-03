@@ -132,7 +132,7 @@ p {
   line-height: 2;
   font-weight: 300;
 }
-.distance {
+ .distance { 
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -141,4 +141,4 @@ p {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-}
+} 
