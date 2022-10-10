@@ -12,9 +12,15 @@
     />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
       href="/space-tourism-website-main/starter-code/crew-engineer.css"
     />
-
     <title>Frontend Mentor | Space tourism website</title>
   </head>
   <body>
@@ -53,21 +59,86 @@
       </div>
     </header>
     <div class="main-container">
-      <div class="left-container">
         <h3 class="meet-your-crew">
           <span class="numbers">02</span> Meet your crew
         </h3>
-        <h1 class="title">Flight Engineer</h1>
-        <h2 class="name">Anousheh Ansari</h2>
 
-        <p class="description">
-          Anousheh Ansari is an Iranian American engineer and co-founder of
-          Prodea Systems. Ansari was the fourth self-funded space tourist, the
-          first self-funded woman to fly to the ISS, and the first Iranian in
-          space.
-        </p>
-      </div>
-      <div class="right-container"></div>
+        <div class="carousel">
+          <div class="carousel-item">
+            <div class="left">
+              <h1 class="title">Flight Engineer</h1>
+              <h2 class="name">Anousheh Ansari</h2>
+      
+              <p class="description">
+                Anousheh Ansari is an Iranian American engineer and co-founder of
+                Prodea Systems. Ansari was the fourth self-funded space tourist, the
+                first self-funded woman to fly to the ISS, and the first Iranian in
+                space.
+              </p>
+            </div>
+            <div class="right">
+              <img class="crew-img" src="./assets/crew/image-anousheh-ansari.png" alt="">
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="left">
+              <h1 class="title">Pilot</h1>
+              <h2 class="name">Victor Glover</h2>
+      
+              <p class="description">
+                Anousheh Ansari is an Iranian American engineer and co-founder of
+                Prodea Systems. Ansari was the fourth self-funded space tourist, the
+                first self-funded woman to fly to the ISS, and the first Iranian in
+                space.
+              </p>
+            </div>
+            <div class="right">
+              <img class="crew-img" src="./assets/crew/image-victor-glover.png" alt="">
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="left">
+              <h1 class="title">Mission Specialist</h1>
+              <h2 class="name">Mark Shuttleworth</h2>
+      
+              <p class="description">
+                Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind 
+                the Linux-based Ubuntu operating system. Shuttleworth became the first South 
+                African to travel to space as a space tourist.
+              </p>
+            </div>
+            <div class="right">
+              <img class="crew-img" src="./assets/crew/image-mark-shuttleworth.png" alt="">
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <div class="left">
+              <h1 class="title">Commander</h1>
+              <h2 class="name">Douglas Hurley</h2>
+      
+              <p class="description">
+                Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
+                and former NASA astronaut. He launched into space for the third time as 
+                commander of Crew Dragon Demo-2.
+              </p>
+            </div>
+            <div class="right">
+              <img class="crew-img" src="./assets/crew/image-douglas-hurley.png" alt="">
+            </div>
+          </div>
+        </div>
     </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./carousel.js"></script>
   </body>
 </html>
